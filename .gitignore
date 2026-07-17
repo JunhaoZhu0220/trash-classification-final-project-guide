@@ -1,0 +1,17 @@
+# Dataset — download from Kaggle, never commit images
+data/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Saved models / large artifacts
+*.pt
+*.pth
+*.h5
+results/*.ckpt
+
+# OS / editor
+.DS_Store
+.vscode/
